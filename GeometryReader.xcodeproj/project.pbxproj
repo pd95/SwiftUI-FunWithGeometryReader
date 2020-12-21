@@ -11,6 +11,13 @@
 		176294222590DAEC0088CC55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176294212590DAEC0088CC55 /* ContentView.swift */; };
 		176294242590DAF10088CC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176294232590DAF10088CC55 /* Assets.xcassets */; };
 		176294272590DAF10088CC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176294262590DAF10088CC55 /* Preview Assets.xcassets */; };
+		17A42D342591034B00687F66 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D332591034B00687F66 /* Introduction.swift */; };
+		17A42D3D2591048F00687F66 /* GettingTheOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D3C2591048F00687F66 /* GettingTheOrigin.swift */; };
+		17A42D412591071600687F66 /* ParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D402591071600687F66 /* ParallaxScrolling.swift */; };
+		17A42D442591077100687F66 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D432591077100687F66 /* Tile.swift */; };
+		17A42D48259137BB00687F66 /* GettingSizeWithGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D47259137BB00687F66 /* GettingSizeWithGeometryReader.swift */; };
+		17A42D4B2591383500687F66 /* LayingOutUsingPhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D4A2591383500687F66 /* LayingOutUsingPhi.swift */; };
+		17A42D4F2591398D00687F66 /* StickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A42D4E2591398D00687F66 /* StickyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,14 @@
 		176294232590DAF10088CC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		176294262590DAF10088CC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		176294282590DAF10088CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A42D332591034B00687F66 /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		17A42D3C2591048F00687F66 /* GettingTheOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingTheOrigin.swift; sourceTree = "<group>"; };
+		17A42D402591071600687F66 /* ParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrolling.swift; sourceTree = "<group>"; };
+		17A42D432591077100687F66 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		17A42D47259137BB00687F66 /* GettingSizeWithGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingSizeWithGeometryReader.swift; sourceTree = "<group>"; };
+		17A42D4A2591383500687F66 /* LayingOutUsingPhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayingOutUsingPhi.swift; sourceTree = "<group>"; };
+		17A42D4E2591398D00687F66 /* StickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeader.swift; sourceTree = "<group>"; };
+		17A42D512591415600687F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 		176294132590DAEC0088CC55 = {
 			isa = PBXGroup;
 			children = (
+				17A42D512591415600687F66 /* README.md */,
 				1762941E2590DAEC0088CC55 /* GeometryReader */,
 				1762941D2590DAEC0088CC55 /* Products */,
 			);
@@ -54,6 +70,11 @@
 			children = (
 				1762941F2590DAEC0088CC55 /* GeometryReaderApp.swift */,
 				176294212590DAEC0088CC55 /* ContentView.swift */,
+				17A42D362591035A00687F66 /* Part-1 */,
+				17A42D3B2591040B00687F66 /* Part-2 */,
+				17A42D3F259106A200687F66 /* Part-3 */,
+				17A42D462591375100687F66 /* Part-4 */,
+				17A42D4D2591391000687F66 /* Part-5 */,
 				176294232590DAF10088CC55 /* Assets.xcassets */,
 				176294282590DAF10088CC55 /* Info.plist */,
 				176294252590DAF10088CC55 /* Preview Content */,
@@ -67,6 +88,48 @@
 				176294262590DAF10088CC55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17A42D362591035A00687F66 /* Part-1 */ = {
+			isa = PBXGroup;
+			children = (
+				17A42D332591034B00687F66 /* Introduction.swift */,
+			);
+			path = "Part-1";
+			sourceTree = "<group>";
+		};
+		17A42D3B2591040B00687F66 /* Part-2 */ = {
+			isa = PBXGroup;
+			children = (
+				17A42D3C2591048F00687F66 /* GettingTheOrigin.swift */,
+			);
+			path = "Part-2";
+			sourceTree = "<group>";
+		};
+		17A42D3F259106A200687F66 /* Part-3 */ = {
+			isa = PBXGroup;
+			children = (
+				17A42D402591071600687F66 /* ParallaxScrolling.swift */,
+				17A42D432591077100687F66 /* Tile.swift */,
+			);
+			path = "Part-3";
+			sourceTree = "<group>";
+		};
+		17A42D462591375100687F66 /* Part-4 */ = {
+			isa = PBXGroup;
+			children = (
+				17A42D47259137BB00687F66 /* GettingSizeWithGeometryReader.swift */,
+				17A42D4A2591383500687F66 /* LayingOutUsingPhi.swift */,
+			);
+			path = "Part-4";
+			sourceTree = "<group>";
+		};
+		17A42D4D2591391000687F66 /* Part-5 */ = {
+			isa = PBXGroup;
+			children = (
+				17A42D4E2591398D00687F66 /* StickyHeader.swift */,
+			);
+			path = "Part-5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A42D4F2591398D00687F66 /* StickyHeader.swift in Sources */,
+				17A42D3D2591048F00687F66 /* GettingTheOrigin.swift in Sources */,
 				176294222590DAEC0088CC55 /* ContentView.swift in Sources */,
+				17A42D48259137BB00687F66 /* GettingSizeWithGeometryReader.swift in Sources */,
+				17A42D342591034B00687F66 /* Introduction.swift in Sources */,
+				17A42D442591077100687F66 /* Tile.swift in Sources */,
+				17A42D4B2591383500687F66 /* LayingOutUsingPhi.swift in Sources */,
+				17A42D412591071600687F66 /* ParallaxScrolling.swift in Sources */,
 				176294202590DAEC0088CC55 /* GeometryReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
