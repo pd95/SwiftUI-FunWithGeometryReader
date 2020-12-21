@@ -9,3 +9,5 @@ Following the blog posts of Big Mountain Studio on Big Mountain Climber's Camp:
 - [Part 5: Sticky Header When Scrolling](https://www.bigmountainstudio.com/members/posts/13099-swiftui-geometryreader-sticky-header-when-scrolling-part-5)
 
 Since the tutorial has been created in September 2019 (and today is December 2020), there has been a change in the behaviour of the `GeometryReader`: It does not layout it's children automatically in the center, but it places them in the top left of its area. To fix this I had to add some `.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)` in a few spots.
+
+![Recording of StickyHeader / Part 5](Recording-StickyHeader.gif)
